@@ -26,21 +26,25 @@ pip install opencv-python opencv-python-headless
 
 ## Model Files
 
-All the necessary model files are included in this repository. These files include:
+All the necessary model files are included in this repository, except for the large pre-trained models, which can be downloaded separately.
 
 1. **Face detection model (Caffe)**:
    - `opencv_face_detector.pbtxt`
    - `opencv_face_detector_uint8.pb`
-   
+      (Download [here](https://github.com/BVLC/caffe/wiki/Model-Zoo))     
+
+
 2. **Age detection model**:
    - `age_deploy.prototxt`
-   - `age_net.caffemodel`
+   - `age_net.caffemodel` 
+      (Download [here](https://github.com/BVLC/caffe/wiki/Model-Zoo))
 
 3. **Gender detection model**:
    - `gender_deploy.prototxt`
-   - `gender_net.caffemodel`
+   - `gender_net.caffemodel` 
+      (Download [here](https://github.com/BVLC/caffe/wiki/Model-Zoo))
 
-You do not need to download them separately. Just clone this repository and everything will be available.
+You can download the pre-trained models by following the links provided above.
 
 ## How it Works
 
